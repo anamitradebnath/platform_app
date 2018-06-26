@@ -1,24 +1,28 @@
+*****************************************
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.5.1
 
-Things you may want to cover:
+* Rails version: 5.1.4
 
-* Ruby version
+* To get started: clone the repo and run bundle install
+bundle install --without production
 
-* System dependencies
+If you are getting error while running the above command, try updating the versions of the gems using bundle update as:
+bundle update
 
 * Configuration
 
 * Database creation
 
-* Database initialization
+* Database initialization: rails db:migrate
 
-* How to run the test suite
+* How to run the test suite: rails test
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
-* ...
+* start the server: rails server
+
+*****************************************
